@@ -15,8 +15,10 @@ object Expressions {
     }
 
     def t3 = {
+
       // You can have multiple generators
       for (i <- 1 to 10; j <- 10 to 20 ) println(i*j)
+
     }
 
     def t4 = {
